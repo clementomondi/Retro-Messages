@@ -1,0 +1,195 @@
+/* Add CSS here */
+body {
+    background-color: #252f45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    height: 500px;
+    max-width: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .closets {
+    background-color: #ffffff;
+    width: 48%;
+    border-radius: 0.6em;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    height: 280px;
+    transition: .4s;
+  }
+  
+  .closets:hover {
+    transform: scale(0.96);
+    transform: rotate(-360deg);
+    cursor: pointer;
+  
+  }
+  
+  .closets h1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .closets p {
+    font-size: 15px;
+    color: #aba8a8;
+    margin-top: -50px;
+  }
+  
+  .closets h2 {
+    font-size: 15px;
+    color: #1c98ee;
+    font-weight: 800;
+    margin-top: -40px;
+  }
+  
+  .card {
+    height: 150px;
+    width: 130%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    transform: rotate(-10deg);
+  }
+  
+  i {
+    transform: rotate(80deg);
+    transition: .4s;
+  }
+  
+  .icon {
+    height: 30px;
+    position: relative;
+    width: 40%;
+    transform: rotate(10deg);
+    display: flex;
+    align-items: center;
+    margin-left: -60px;
+    justify-content: center;
+  }
+  
+  .check {
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 1em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  @media screen and (max-width:600px) {
+    body {
+      background-color: #252f45;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      height: 100vh;
+    }
+  
+    .container {
+      height: 620px;
+      width: 90%;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .closets {
+      background-color: #ffffff;
+      width: 95%;
+      border-radius: 0.4em;
+      display: flex;
+      padding: 5px;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      overflow: hidden;
+      height: 280px;
+      transition: .4s;
+    }
+  
+    .closets:hover {
+      transform: scale(0.96);
+      transform: rotate(-360deg);
+      cursor: pointer;
+  
+    }
+  
+    .closets h1 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  
+    .closets p {
+      font-size: 15px;
+      color: #aba8a8;
+      margin-top: -50px;
+    }
+  
+    .closets h2 {
+      font-size: 15px;
+      color: #1c98ee;
+      font-weight: 800;
+      margin-top: -40px;
+    }
+  
+    .card {
+      height: 150px;
+      width: 130%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: -30px;
+      transform: rotate(-10deg);
+    }
+  
+    i {
+      transform: rotate(80deg);
+      transition: .4s;
+    }
+  
+    .icon {
+      height: 30px;
+      position: relative;
+      width: 40%;
+      transform: rotate(10deg);
+      display: flex;
+      align-items: center;
+      margin-left: -60px;
+      justify-content: center;
+    }
+  
+    .check {
+      height: 20px;
+      position: absolute;
+      width: 20px;
+      margin-left: 40px;
+      margin-top: 25px;
+      border-radius: 1em;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
